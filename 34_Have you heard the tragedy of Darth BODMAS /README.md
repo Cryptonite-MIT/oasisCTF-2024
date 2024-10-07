@@ -5,13 +5,13 @@ After navigating for what seems like an eternity, you reach the core however, yo
 # WRITEUP
 
 See solve script `solve.py`.
-(Will need to launch instance)
+
 ```
 import requests
 import json
 
 HOST = "http://localhost:8000"
-# HOST = "https://xyz.vercel.app/"
+# HOST = "https://leet.oasis.cryptonite.live/"
 
 resp = requests.get(HOST, allow_redirects=False)
 init_html = resp.text
